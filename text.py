@@ -1,3 +1,6 @@
+pygame.init()
+pygame.font.init()
+
 class Text:
 
     #initialization function
@@ -19,3 +22,5 @@ class Text:
     def center(self):
         self.x = self.ojx - self.font.size(str(self.text))[0]/2
         self.y = self.ojy - self.font.size(str(self.text))[1]/2
+
+font = "comicsansms"
